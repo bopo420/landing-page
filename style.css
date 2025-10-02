@@ -44,10 +44,7 @@ body{
     width: 350px;
     
 }
-.img{
-    background-color: gray;
-    padding: 90px;
-}
+
 button{
     background-color: lightskyblue;
     border-radius: 5px;
@@ -58,3 +55,37 @@ button{
     font-weight: 900;
     font-size: 30px;
 }
+.japan{
+    width: 370px;
+    height: 220px;
+    border-radius: 5px;
+    
+}
+.info-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+   
+}
+.item-container{
+    display: flex;
+    gap: 30px;
+    
+}
+.pics{
+    width: 150px;
+    height: auto;
+     border-radius: 10px;
+     border-style: solid; 
+     border-width: 3px;
+     border-color: lightblue;
+
+     
+}
+.item{
+    width: 150px;
+    text-align: center;
+}
+.info-container h1{ font-size: 36px;
+font-weight: 900;}
