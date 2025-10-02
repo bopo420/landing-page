@@ -89,3 +89,36 @@ button{
 }
 .info-container h1{ font-size: 36px;
 font-weight: 900;}
+.quote-container{
+    height: 400px;
+    background-color:#E5E7EB ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.quote-container {
+    
+   
+   
+    display: flex;
+    flex-direction: column;
+   
+}
+.quote-container p{
+    width: 700px;
+    font-size: 23px;
+    
+}
+.quote-container strong{
+    align-self: flex-end;
+    width: 700px;
+    font-size: 30px;
+}
+.signup-container{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
