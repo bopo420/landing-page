@@ -50,6 +50,10 @@ button{
     border-radius: 5px;
     border: 0px;
     padding: 5px 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    
 }
 .text div{
     font-weight: 900;
@@ -95,16 +99,10 @@ font-weight: 900;}
     display: flex;
     justify-content: center;
     align-items: center;
-    
-}
-.quote-container {
-    
-   
-   
-    display: flex;
     flex-direction: column;
-   
+    
 }
+
 .quote-container p{
     width: 700px;
     font-size: 23px;
@@ -120,5 +118,29 @@ font-weight: 900;}
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    
    
+}
+.signup{
+    display: flex;
+    
+    gap: 40px;
+    background-color: lightskyblue;
+   height: 90px;
+   width: 700px;
+   justify-content: space-around;
+   border-radius: 10px;
+   padding: 0px 20px;
+}
+.signup button{
+    align-self: center;
+}
+.footercont{
+    display: flex;
+   height: 60px;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    align-items: center;
 }
